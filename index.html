@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
+
+    <!-- adding fonts quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
     <!-- parent div -->
-     <div>
+    <div>
         <!-- rehan's navbar -->
-         <d class="bg-amber-300">
+        <div class="px-[140px] py-[20px] flex items-center justify-between">
 
+            <!-- logo section -->
+            <div class="flex items-center gap-3">
+                <img src="./assets/logo.png" alt="Logo" class="w-[62px] h-[62px]" />
+                <h1 class="font-[Quicksand] font-bold text-4xl">SCHOOL</h1>
+            </div>
 
-         </div>
+            <!-- middle section -->
+            <div class="flex items-center gap-8 font-[Quicksand] font-medium text-xl">
+                <a class="text-[#FEA301]" href="/">Home</a>
+                <a class="text-[#01ACFD]" href="/">About</a>
+                <a class="text-[#05D4DF]" href="/">Facilities</a>
+                <a class="text-[#5D58EF]" href="/">Admissions</a>
+            </div>
 
-         <!-- tanvir's hero -->
-          <div>
+            <!-- contact button -->
+            <button
+                class="font-semibold cursor-pointer text-xl font-[Quicksand] px-[60px] py-[10px] bg-[#FEA301] rounded-[12px] text-white">Contact</button>
+        </div>
 
-          </div>
+        <!-- tanvir's hero -->
+        <div class=" px-[140px] flex  mt-[20px] justify-between items-center">
 
-          <!-- samin's carriculum -->
-           <div >
-
+            <!-- hero-title and hero-description and one button -->
+           <div class="">
+             <h2 class="text-[56px] font-bold font-[Quicksand] text-[#111111]"> <span class="text-[rgb(254,163,1)] ">Empowering</span> <br>students from small <br> age <span class="text-[#01ACFD]"
+                >towards vision </span> </h2>
+                <p class="text-[20px] font-normal font-[Quicksand] text-[#111111]">With the courage, Confidence, Creativity and Compassion to make <br> their Unique Contribution in a Diverse and Dynamic World.</p>
+                <button class="text-[#FFFFFF] bg-[#111111] font-bold font-[Quicksand] px-[47px] py-[10px] rounded-2xl mt-4">Enroll now</button>
 
            </div>
+           <!-- image section -->
+            <img src="assets/hero-kids.png" alt="">
 
-           <!-- tanvir's stories -->
-            <div>
+        </div>
 
-            </div>
+        <!-- samin's carriculum -->
+        <div></div>
 
-            <!-- samin's footer -->
+        <!-- tanvir's stories -->
+        <div></div>
 
-            <div>
-                
-            </div>
-     </div>
+        <!-- samin's footer -->
+
+        <div></div>
+    </div>
 </body>
+
 </html>
